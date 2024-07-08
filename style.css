@@ -25,11 +25,11 @@ body {
     justify-content: space-between;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
-.hangman-box img {
+.image-box img {
     user-select: none;
     max-width: 270px;
 }
-.hangman-box h1 {
+.image-box h1 {
     font-size: 1.45rem;
     text-align: center;
     margin-top: 20px;
@@ -158,12 +158,10 @@ body {
         padding: 30px 15px;
         align-items: center;
     }
-    .hangman-box img {
+    .image-box img {
         max-width: 250px;
     }
-    /* .hangman-box h1 {
-        display: none;
-    } */
+    
     .game-box h4 {
         font-size: 1rem;
     }
